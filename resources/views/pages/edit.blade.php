@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
-        <h1 class="text-2xl font-semibold text-center mb-6">Create User</h1>
+        <h1 class="text-2xl font-semibold text-center mb-6">Update User</h1>
         <form action="{{ route('users.update', $user) }}" method="POST">
             @csrf
             @method('PUT') 
@@ -24,7 +24,7 @@
             </div>
 
             <button type="submit" class="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300">
-                Submit
+                Update
             </button>
         </form>
     </div>

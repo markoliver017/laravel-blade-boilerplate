@@ -16,9 +16,9 @@
                 <h1 class="text-lg font-bold">My App</h1>
                 <nav>
                     <ul class="flex space-x-4">
-                        <li><a href="/" class="hover:underline">Home</a></li>
-                        <li><a href="#" class="hover:underline">About</a></li>
-                        <li><a href="#" class="hover:underline">Contact</a></li>
+                        <li><a href="/users" class="hover:underline">Home</a></li>
+                        {{-- <li><a href="#" class="hover:underline">About</a></li>
+                        <li><a href="#" class="hover:underline">Contact</a></li> --}}
                     </ul>
                 </nav>
             </div>
@@ -32,9 +32,9 @@
             <!-- Sidebar -->
             <aside class="bg-base-200 w-64 p-4 hidden md:block">
                 <ul class="menu p-0">
-                    <li><a href="#" class="hover:bg-primary hover:text-white">Dashboard</a></li>
-                    <li><a href="#" class="hover:bg-primary hover:text-white">Profile</a></li>
-                    <li><a href="#" class="hover:bg-primary hover:text-white">Settings</a></li>
+                    <li><a href="#" class="hover:bg-primary hover:text-white">Home</a></li>
+                    {{-- <li><a href="#" class="hover:bg-primary hover:text-white">Profile</a></li>
+                    <li><a href="#" class="hover:bg-primary hover:text-white">Settings</a></li> --}}
                 </ul>
             </aside>
 

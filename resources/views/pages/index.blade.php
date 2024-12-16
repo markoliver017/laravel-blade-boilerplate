@@ -20,8 +20,8 @@
                     <td>{{$user->email}}</td>
                     <td>
                         <a class="btn btn-xs btn-default" href="{{route('users.show', $user)}}"><i class="fa fa-eye"></i></a>
-                        {{-- <a class="btn btn-xs btn-default" href="{{route('users.edit', $user)}}"><i class="fa fa-pencil"></i></a> --}}
-                        <a class="btn btn-xs btn-default action_user" data-action="edit" data-obj="{{json_encode($user)}}" href="#"><i class="fa fa-pencil"></i></a>
+                        <a class="btn btn-xs btn-default" href="{{route('users.edit', $user)}}"><i class="fa fa-pencil"></i></a>
+                        {{-- <a class="btn btn-xs btn-default action_user" data-action="edit" data-obj="{{json_encode($user)}}" href="#"><i class="fa fa-pencil"></i></a> --}}
                         <form action="{{ route('users.destroy', $user) }}" method="POST" class="inline">
                             @csrf
                             @method('DELETE')
